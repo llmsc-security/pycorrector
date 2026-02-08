@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  pycorrector:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pycorrector-container
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PYTHONDONTWRITEBYTECODE=1
+    ports:
+      - "11000:5001"
+    volumes:
+      - ./logs:/app/logs
