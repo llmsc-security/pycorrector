@@ -636,3 +636,17 @@ pycorrector 的授权协议为 **Apache License 2.0**，可免费用做商业用
 * Ruiqing Zhang, Chao Pang et al. "Correcting Chinese Spelling Errors with Phonetic Pre-training", ACL, 2021
 * DingminWang et al. "A Hybrid Approach to Automatic Corpus Generation for Chinese Spelling Check", EMNLP, 2018
 * [MuCGEC: a Multi-Reference Multi-Source Evaluation Dataset for Chinese Grammatical Error Correction](https://aclanthology.org/2022.naacl-main.227) (Zhang et al., NAACL 2022)
+
+---
+
+## Docker Deployment
+
+This repository has been Dockerized for easy deployment.
+
+- **Official Repository**: [shibing624/pycorrector](https://github.com/shibing624/pycorrector)
+- **Dockerized by**: [llmsc-security](https://github.com/llmsc-security)
+- **Docker Image**: `shibing624--pycorrector_image`
+- **Container**: `shibing624--pycorrector_container`
+- **HTTP Service**: `http://127.0.0.1:11000`
+
+For Docker deployment and port mapping details, please visit our [Docker Directory](https://github.com/llmsc-security/docker-yuelin).
