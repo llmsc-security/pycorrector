@@ -82,7 +82,7 @@ USER appuser
 # Set the working directory where the example code lives
 WORKDIR /app/examples
 
-EXPOSE 5001
+EXPOSE 11000
 
 # Single, absolute entrypoint
 ENTRYPOINT ["/app/entrypoint.sh"]
